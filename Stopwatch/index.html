@@ -1,20 +1,29 @@
-<html>
-    <head>
-        <title>Stopwatch</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="stopwatch">
-            00:00:00
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Stopwatch Application</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <div class="wrapper">
+    <div class="time">
+      <span class="hour">00</span>
+      <span class="colon">:</span>
+      <span class="minute">00</span>
+      <span class="colon">:</span>
+      <span class="second">00</span>
+      <span class="colon ms-colon">:</span>
+      <span class="millisecond">00</span>
+    </div>
+    <div class="buttons">
+      <button class="start">Start</button>
+      <button class="stop">Stop</button>
+      <button class="reset">Reset</button>
+    </div>
+  </div>
 
-        <ul id="buttons">
-            <li><button onclick="startTimer()">Start</button></li>
-            <li><button onclick="stopTimer()">Stop</button></li>
+  <script src="script.js"></script>
 
-            <li><button onclick="resetTimer()">Reset</button></li>
-        </ul>
-
-        <script src="script.js"></script>
-    </body>
+</body>
 </html>
