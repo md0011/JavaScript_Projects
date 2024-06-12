@@ -13,12 +13,12 @@ body{
 }
 
 h1{
-    font-size: 47px;
+    font-size: 30px;
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 20px;
-    margin-left: 170px;
+    margin-left: 100px;
     background: #0000ff;
     padding: 10px;
     border-radius: 5px;
@@ -26,15 +26,15 @@ h1{
 }
 
 #weekday{
-    font-size: 80px;
+    font-size: 50px;
     color: #dd5800;
     font-weight: 800;
-    margin-left: 170px;
+    margin-left: 100px;
 }
 
 #phrase{
-    font-size: 40px;
+    font-size: 30px;
     color: #0000ff;
     font-weight: 800;
-    margin-left: 170px;
+    margin-left: 100px;
 }
