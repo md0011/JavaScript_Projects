@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/e64e31f186.js"
+      crossorigin="anonymous"
+      SameSite="None"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Weight Converter</title>
+  </head>
+
+  <body class="container w-25 bg bg-dark">
+    <h1 class="display-4 text-center text-light pt-5 pb-1">Weight Converter</h1>
+    <input
+      id="number"
+      class="form-control d-inline py-4"
+      type="number"
+      placeholder="Enter pounds..."
+    />
+    <div id="output" class="mt-4 text-light">
+      <div id="g" class="card card-body bg bg-primary mb-2">
+        <h4>Grams:</h4>
+        <div class="grams"></div>
+      </div>
+      <div id="kg" class="card card-body bg bg-success mb-2">
+        <h4>Kilograms:</h4>
+        <div class="kilograms"></div>
+      </div>
+      <div id="oz" class="card card-body bg bg-danger mb-2">
+        <h4>Ounces:</h4>
+        <div class="ounces"></div>
+      </div>
+      <div id="lbs" class="card card-body bg bg-warning mb-2">
+        <h4>Pounds:</h4>
+        <div class="pounds"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
