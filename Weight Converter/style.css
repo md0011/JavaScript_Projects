@@ -1,0 +1,13 @@
+#g:hover, #kg:hover, #oz:hover{
+    cursor: pointer;
+}
+
+#g:active{
+    background-color: rgb(0, 100, 200)!important;
+}
+#kg:active{
+    background-color: rgb(40, 130, 40)!important;
+}
+#oz:active{
+    background-color: rgb(190, 53, 69)!important;
+}
