@@ -1,0 +1,32 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 150%;
+    color: #fff;
+    text-shadow: 1px 2px 1px #00000080;
+  }
+  
+  body {
+    height: 100vh;
+    padding: 0 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: linear-gradient(45deg, rgb(64, 140, 190) 0%, rgb(64, 140, 190) 7%,rgb(62, 107, 145) 7%, rgb(62, 107, 145) 9%,rgb(49, 99, 131) 9%, rgb(49, 99, 131) 11%,rgb(116, 172, 211) 11%, rgb(116, 172, 211) 26%,rgb(125, 182, 214) 26%, rgb(125, 182, 214) 34%,rgb(40, 90, 136) 34%, rgb(40, 90, 136) 41%,rgb(39, 123, 190) 41%, rgb(39, 123, 190) 100%);
+  }
+    
+  span::after {
+    position: relative;
+    top: 0.1em;
+    display: inline-block;
+    content: '';
+    margin-left: 0.05em;
+    height: 1em;
+    width: 0.03em;
+    background: #fff;
+    box-shadow: 1px 2px 1px #00000080;
+  }
