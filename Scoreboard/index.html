@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoreboard</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scoreboard">
+      <div class="team">
+        <h2>Team A</h2>
+        <p id="teamAScore">0</p>
+        <div class="btn-container">
+          <button onclick="incrementScore('teamA')">+</button>
+          <button onclick="decrementScore('teamA')">-</button>
+        </div>
+      </div>
+
+      <button id="reset-btn" onclick="resetScores()">Reset</button>
+
+      <div class="team">
+        <h2>Team B</h2>
+        <p id="teamBScore">0</p>
+        <div class="btn-container">
+          <button onclick="incrementScore('teamB')">+</button>
+          <button onclick="decrementScore('teamB')">-</button>
+        </div>
+      </div>
+    </div>
+    <!-- Script-->
+    <script src="script.js"></script>
+  </body>
+</html>
